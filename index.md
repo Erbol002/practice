@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>
+		FAQ
+	</title>
+</head>
+<body>
+	 <main class="faq">
+        
+  <div class="faq__logo__holder">
+  <div class="faq__logo">
+    <img src="https://bobmatyas.github.io/fm-faq-accordion/images/illustration-woman-online-mobile.svg" alt="woman at a computer" class="faq__logo__image hidden-lg">
+    <img src="https://bobmatyas.github.io/fm-faq-accordion/images/illustration-box-desktop.svg" alt="" class="faq__logo__image visible-lg">
+  </div>
+  </div>
+  
+  <div class="faq__holder">
+  <h1 class="faq__heading">FAQ</h1>
+ 
+  <details class="faq__detail">
+      <summary  class="faq__summary"><span class="faq__question">How many team members can I invite?</span></summary>
+      <p class="faq__text">You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.</p>
+  </details>
 
-You can use the [editor on GitHub](https://github.com/Erbol002/practice/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+  <details class="faq__detail">
+    <summary  class="faq__summary"><span class="faq__question">What is the maximum file upload size?</span></summary>
+    <p class="faq__text">No more than 2GB. All files in your account must fit your allotted storage space.</p>
+  </details>  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <details class="faq__detail">
+    <summary  class="faq__summary"><span class="faq__question">How do I reset my password?</span></summary>
+    <p class="faq__text">Click “Forgot password” from the login page or “Change password” from your profile page.</p>
+    <p class="faq__text">A reset link will be emailed to you.</p>
+  </details>  
+  
+  <details class="faq__detail">
+    <summary  class="faq__summary"><span class="faq__question">Can I cancel my subscription?</span></summary>
+    <p class="faq__text">Yes! Send us a message and we’ll process your request no questions asked.</p>
+  </details> 
+  
+  <details class="faq__detail">
+    <summary  class="faq__summary"><span class="faq__question">Do you provide additional support?</span></summary>
+    <p class="faq__text">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+  </details>   
 
-### Markdown
+</div>
+</main> 
+  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Erbol002/practice/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  
+</body>
+</html>
